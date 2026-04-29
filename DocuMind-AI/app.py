@@ -2,16 +2,16 @@ import streamlit as st
 import pandas as pd
 from docx import Document
 import PyPDF2
-
+from pathlib import Path
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
 
 
 def load_css(file_name):
-    with open(file_name, "r") as f:
+    css_path = Path(__file__).parent / file_name
+    with open(css_path, "r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-
 
 st.set_page_config(page_title="DocuMind AI", page_icon="📄")
 
