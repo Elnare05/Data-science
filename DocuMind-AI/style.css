@@ -1,0 +1,60 @@
+.stApp {
+    background: linear-gradient(135deg, #dbeafe 0%, #f8fafc 100%);
+}
+
+.main-title {
+    font-size: 46px;
+    font-weight: 900;
+    text-align: center;
+    color: #0f172a;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #475569;
+    margin-bottom: 35px;
+}
+
+.answer-box {
+    background: #dcfce7;
+    border: 2px solid #22c55e;
+    padding: 20px;
+    border-radius: 16px;
+    color: #14532d;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.error-box {
+    background: #fee2e2;
+    border: 2px solid #ef4444;
+    padding: 20px;
+    border-radius: 16px;
+    color: #7f1d1d;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+section[data-testid="stFileUploader"] {
+    background: white;
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid #cbd5e1;
+}
+
+div[data-testid="stTextInput"] {
+    background: white;
+    padding: 12px;
+    border-radius: 14px;
+}
+
+div[data-testid="stTextArea"] textarea {
+    border-radius: 12px;
+    font-size: 16px;
+}
+div[data-testid="InputInstructions"] {
+    display: none;
+}
